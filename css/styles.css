@@ -12116,8 +12116,10 @@ header.masthead .masthead-heading {
   text-align: center;
 }
 .team-member img {
-  width: 13rem;
-  height: 12rem;
+  object-fit: fill;
+  display: block;
+  width: 16rem;
+  height: 15rem;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4,
